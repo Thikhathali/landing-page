@@ -5,7 +5,9 @@
 
 body {
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 16px;
+    font-weight: 500;
     background-color: #1F2937;
     color: #fff;
     overflow-x: hidden;
@@ -34,6 +36,7 @@ button {
 }
 
 strong {
+    font-family: 'Major Mono Display', monospace;
     margin-left: auto;
     padding-right: 150px;
 }
@@ -47,6 +50,7 @@ strong {
 }
 
 .logo {
+    font-family: 'Major Mono Display', monospace;
     font-size: 24px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -60,11 +64,17 @@ strong {
 
 .content {
     display: flex;
-    margin-bottom: 100px;
+    background-color: rgb(201, 164, 126);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
-.hero-main {
-    font-size: 48px;
+.hero-main {    
+    font-family: 'Delicious Handrawn', cursive;
+    letter-spacing: 1.5rem;
+    font-size: 78px;
     font-weight: bolder;
     color: #F9FAF8;
 }
@@ -79,7 +89,8 @@ strong {
     width: 700px;
 }
 
-.info-header {
+.info-header {    
+    font-family: 'Major Mono Display', monospace;
     text-align: center;
     font-size: 36px;
     font-weight: bolder;
@@ -107,7 +118,7 @@ strong {
 
 .random-img {
     width: 150px;
-    height: 150px;
+    height: 100px;
     border: 2px solid orange;
     border-radius: 10px;
 }
@@ -118,6 +129,16 @@ strong {
     align-items: center;
     gap: 20px;
     width: 200px;
+}
+
+.random-img > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 9px;
+}
+
+.random-wrap ul li:nth-child(1) {    
+    margin-top: -150px;
 }
 
 .quote {
@@ -167,6 +188,7 @@ strong {
 }
 
 .footer {
+    font-family: 'Major Mono Display', monospace;
     display: flex;
     justify-content: center;
     align-items: center;
