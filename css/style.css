@@ -28,11 +28,12 @@ h2 {
 
 button {
     width: 90px;
-    padding: 9px;
+    padding: 12px;
     color: #F9FAF8;
     background-color: #3882F6;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 strong {
@@ -156,6 +157,13 @@ strong {
     font-weight: 200;
     font-style: italic;
     margin: auto;
+}
+
+.quote * strong {
+    /* font-family: 'Delicious Handrawn', cursive; */
+    font-size: 5rem;
+    color: #777;
+    padding: 0;
 }
 
 .call-to-action {
